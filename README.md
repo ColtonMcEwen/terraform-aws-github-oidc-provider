@@ -52,7 +52,7 @@ No requirements.
 | <a name="input_tags"></a> [tags](#input\_tags) | Tags | `map(any)` | `{}` | no |
 | <a name="input_thumbprint_list"></a> [thumbprint\_list](#input\_thumbprint\_list) | This is the thumbprint returned if you were to create an "identity provider" in AWS and gave it this url: https://token.actions.githubusercontent.com | `list` | <pre>[<br>  "a031c46782e6e6c662c2c87c76da9aa62ccabd8e"<br>]</pre> | no |
 | <a name="input_url"></a> [url](#input\_url) | n/a | `string` | `"https://token.actions.githubusercontent.com"` | no |
-| <a name="input_validate_conditions"></a> [validate\_conditions](#input\_validate\_conditions) | Conditions to validate | `set(string)` | <pre>[<br>  "repo:github.com/ColtonMcEwen/*"<br>]</pre> | no |
+| <a name="input_validate_conditions"></a> [validate\_conditions](#input\_validate\_conditions) | Conditions to validate | `set(string)` | <pre>[<br>  "repo:octo-org/octo-repo:ref:refs/heads/octo-branch"<br>]</pre> | no |
 
 ## Outputs
 
