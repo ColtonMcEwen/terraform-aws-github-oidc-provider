@@ -41,6 +41,7 @@ variable "validate_conditions" {
   description = "Conditions to validate"
   type        = set(string)
   default     = ["repo:octo-org/octo-repo:ref:refs/heads/octo-branch"]
+  # default     = ["repo:github.com/ColtonMcEwen/*"]
 }
 
 variable "tags" {
