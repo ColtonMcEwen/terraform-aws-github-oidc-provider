@@ -17,7 +17,7 @@ variable "client_id_list" {
 # it this url: https://token.actions.githubusercontent.com
 variable "thumbprint_list" {
   default = [
-    "a031c46782e6e6c662c2c87c76da9aa62ccabd8e"
+    "6938fd4d98bab03faadb97b34396831e3780aea1"
   ]
 }
 
